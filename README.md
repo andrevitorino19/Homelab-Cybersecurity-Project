@@ -22,4 +22,5 @@ It involves setting up interconnected Windows and Linux virtual machines, genera
 - Netstat to observe network connections and verify successful exploitation.
 
 ## Detailed Steps with Screenshots
-For a detailed walkthrough of the project setup, [click here](docs/steps-with-screenshots.md).
+[Detailed Steps with Screenshots](https://github.com/andrevitorino19/Homelab-Cybersecurity-Project/blob/main/docsdocs/steps-with-screenshots)
+
