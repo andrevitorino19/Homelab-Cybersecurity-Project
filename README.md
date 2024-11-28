@@ -21,11 +21,5 @@ It involves setting up interconnected Windows and Linux virtual machines, genera
 - Using metasploit framework to handle payload execution and exploitation.
 - Netstat to observe network connections and verify successful exploitation.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+## Detailed Steps with Screenshots
+For a detailed walkthrough of the project setup, [click here](docs/steps-with-screenshots.md).
