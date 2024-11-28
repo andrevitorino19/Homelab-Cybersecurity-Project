@@ -24,3 +24,6 @@ It involves setting up interconnected Windows and Linux virtual machines, genera
 ## Detailed Steps with Screenshots
 [Detailed Steps with Screenshots](https://github.com/andrevitorino19/Homelab-Cybersecurity-Project/blob/main/docsdocs/steps-with-screenshots)
 
+## Disclaimer
+
+This project is for **educational purposes only**. It was conducted in a controlled environment, and any misuse of these techniques is strongly discouraged.
