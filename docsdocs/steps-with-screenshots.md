@@ -72,5 +72,38 @@ To setup this **HTTP** server i decided to use **Python**! -> This will allow my
 
 
 
-### Step10- Now i placed the adress(my VM IP server), into my Windows VM, and we got this result seeing the malware file i created earlier with the name `AndreAttack.pdf.exe`. 
-so i proceeded to download it.
+### Step 10: Now i placed the adress(my VM IP server), into my Windows VM, and we got this result seeing the malware file i created earlier with the name `AndreAttack.pdf.exe`. 
+So i proceeded to download it.
+
+![10](https://github.com/user-attachments/assets/0f7d1a5a-7268-4ea8-af2e-98ba2a25465e)
+
+   ### 10.1:  I proceeded to open CMD and type `netstat -anob`, so i can see if i have an establhised connection to my VM machine.
+As you can see, i got it successfly! Great!
+
+![11](https://github.com/user-attachments/assets/6ec5db86-2db7-4855-bf06-5b0ee2f3610d)
+
+
+### Step 11: If i open Task manager and sort the `PID`, we can see our malware file `AndreAttack.pdf.exe`.
+![12](https://github.com/user-attachments/assets/f347f2ad-93e7-41eb-a5d2-2ae10c2caa8f)
+
+
+## Step 12: Now I can see that i have control of the VM! I typed some commands on my Attacker machine (Linux VM) to test it out! 
+- Used the commands:
+  ```bash
+  shell
+  ```
+  ```bash
+  net user
+  ```
+  ```bash
+  net localgroup
+  ```
+  ```bash
+  ip config
+  ```
+Pretty funny!
+
+![13](https://github.com/user-attachments/assets/33847e3b-3b28-4fe0-bf9d-ebed18713eca)
+
+ 
+
